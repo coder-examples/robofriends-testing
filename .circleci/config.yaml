@@ -1,0 +1,8 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cicleci/ruby@2.4.1
+    stage:
+      - checkout
+      - run: echo "A first hello"
