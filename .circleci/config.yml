@@ -3,6 +3,6 @@ jobs:
   build:
     docker:
       - image: cicleci/ruby@2.4.1
-    stage:
+    steps:
       - checkout
       - run: echo "A first hello"
